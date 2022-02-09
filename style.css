@@ -1,0 +1,541 @@
+/* style.css */
+body {
+  font-family: Overpass;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: rgb(46, 46, 62);
+  font-family: Roboto;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://905887.smushcdn.com/1220732/wp-content/uploads/2020/09/dave-francis-VX-ipK6tdxA-unsplash-1200x787.jpg?lossy=1&strip=1&webp=1');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  position: sticky;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.button-blue {
+  background-image: linear-gradient(to right, rgb(38, 36, 249), rgb(131, 133, 255));
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-image: linear-gradient(to right, rgb(38, 36, 249), rgb(38, 36, 249));
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgb(46, 46, 62);
+}
+
+.card-white a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 17px;
+  color: rgb(46, 46, 62);
+  padding-top: 5px;
+}
+
+.card-white img:hover {
+  width: 185px;
+  height: 185px;
+}
+
+.card-white a:hover {
+  color: black;
+
+
+}
+
+
+.footer {
+  background: rgb(46, 46, 62);;
+  text-align: center;
+  padding: 24px 0;
+  position: sticky;
+
+}
+
+.footer p {
+  color: rgb(182, 183, 251);
+  position: sticky;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+.navibar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-size: cover;
+  height: 35px;
+  font-family: Roboto;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  text-orientation: center;
+  background-image: linear-gradient(to right, rgb(38, 36, 249), rgb(131, 133, 255));
+  font-size: 25px;
+  padding-bottom: 7px;
+
+}
+.navibar a {
+  color: rgb(250, 247, 245);
+  text-decoration: none;
+  margin: 5px;
+  width: available;
+
+}
+
+.navibar a:hover {
+  color: rgb(46, 46, 62);
+}
+
+
+#overlay {
+ background-image: url("images/pet tela.jpg");
+ background-size: cover;
+
+}
+
+.login {
+  background-color: rgb(46, 46, 62);
+
+}
+
+.cardlog {
+  box-shadow: 1px 1px 5px rgb(182, 183, 251);
+  background-color: rgb(182, 183, 251);
+  padding: 30px;
+  border-radius: 5px;
+ 
+
+}
+
+.form {
+  padding-top: 70px;
+  margin: auto;
+  width: 500px;
+}
+.card-top {
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+
+}
+
+.char {
+  border-radius: 50px;
+  background-color: rgb(15,155,248);
+  width: 100px;
+  box-shadow: 1px 1px 7px;
+}
+
+.card-group > label{
+  width: 100%;
+  color: rgb(29,32,34);
+  display: block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.card-group > input {
+  border-radius: 5px;
+  width: 100%;
+  outline: 0;
+  height: 30px;
+}
+
+.card-group {
+  margin-bottom: 15px;
+
+
+}
+
+
+.btn button:hover {
+  background-color: rgb(182, 183, 251);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(46, 46, 62);
+  color: rgb(46, 46, 62);
+  box-shadow: 1px 1px 4px rgb(46, 46, 62);
+}
+
+.lnk {
+  font-family: Roboto;
+  font-size: 70px;
+  text-align: center;
+  width: cover;
+
+}
+
+.register {
+  background-color: rgb(46, 46, 62);
+
+}
+
+
+.card-group > a {
+  border-radius: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 17px;
+  border: 0px;
+  padding: 5px;
+  background-color: rgb(46, 46, 62);
+  color: rgb(182, 183, 251);
+  text-decoration: none;
+  align-content: center;
+  width: available;
+}
+
+
+
+
+.card-group btn:hover {
+  background-color: rgb(182, 183, 251);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(46, 46, 62);
+  color: rgb(46, 46, 62);
+  box-shadow: 1px 1px 4px rgb(46, 46, 62);
+}
+
+
+.card-group > button {
+  width: 100%;
+  align-content: center;
+  border-radius: 20px;
+  text-align: center;
+  height: 30px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 17px;
+  border: 0px;
+  outline: 0;
+  background-color: rgb(46, 46, 62);
+  color: rgb(182, 183, 251);
+}
+
+.register {
+  background-color: rgb(46, 46, 62);
+}
+
+.usergender h2 {
+  color: black;
+
+}
+.card-form {
+  box-shadow: 1px 1px 5px rgb(182, 183, 251);
+  background-color: rgb(182, 183, 251);
+  padding: 30px;
+  border-radius: 5px;
+  width: 400px;
+
+
+}
+
+.user-form {
+  padding-top: 70px;
+  margin: auto;
+  width: 500px;
+  padding-bottom: 70px;
+}
+
+.user-top {
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+}
+
+.username {
+  width: cover;
+  font-family: Roboto;
+  color: black;
+}
+
+.username > label{
+  width: 100%;
+  color: rgb(29,32,34);
+  display: block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.username > input {
+  border-radius: 5px;
+  width: 100%;
+  outline: 0;
+  height: 25px;
+  padding-top: 0px;
+}
+
+.userage > label{
+  width: 100%;
+  color: rgb(29,32,34);
+  display: block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+
+.userage > input {
+  border-radius: 5px;
+  width: 100%;
+  outline: 0;
+  height: 25px;
+}
+
+.usergender h2 {
+  width: 100%;
+  color: rgb(29,32,34);
+  display: block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: left;
+
+}
+
+.usergender > input {
+  padding-top: 10px;
+  display: block;
+}
+
+.usergender > label {
+  display: inline-block;
+}
+
+
+.btnreg {
+  padding-top: 10px;
+}
+
+.btnreg > button {
+  width: 100%;
+  align-content: center;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 17px;
+  border: 0px;
+  outline: 0;
+  background-color: rgb(46, 46, 62);
+  color: rgb(182, 183, 251);
+
+}
+
+.dogsn {
+  padding-top: 10px;
+}
+
+.dogsn > label {
+  width: 100%;
+  color: rgb(29,32,34);
+  display: block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+
+
+#vol {
+  border-radius: 5px;
+  width: 100%;
+  outline: 0;
+  height: 25px;
+}
+
+#display {
+  background-color: rgb(182, 183, 251);
+  border: none;
+  padding-top: 1px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+}
+.btnreg {
+  padding-top: 15px;
+}
+
+#gender1 {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    display: inline-grid;
+}
+
+#gender1 > label {
+  font-size: 14px;
+  display: block;
+  width: 400px;
+}
+
+#gender2 {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    display: inline-grid;
+}
+
+#gender2 > label {
+  font-size: 14px;
+  display: block;
+  width: 400px;
+}
+
+#gender3 {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    display: inline-grid;
+}
+
+#gender3 > label {
+  font-size: 14px;
+  display: block;
+  width: 400px;
+}
+
+.user {
+  background-color: rgb(46, 46, 62);
+}
+ .mydogs {
+  font-family: Roboto;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+ }
+
+ .mydogs > a {
+  color: rgb(182, 183, 251);
+  text-decoration: none;
+ }
+
+  .myaccount {
+  font-family: Roboto;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+ }
+
+  .myaccount > a {
+  color: rgb(182, 183, 251);
+  text-decoration: none;
+ }
+
+.menutop > img {
+  border-radius: 50px;
+  background-color: rgb(15,155,248);
+  width: 100px;
+  box-shadow: 1px 1px 7px;
+
+}
+.menutop {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.card-groupl {
+  height: 40px;
+}
